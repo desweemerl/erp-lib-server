@@ -20,7 +20,7 @@ public class PGException {
         initialize();
     }
 
-    protected final void initialize() {
+    protected void initialize() {
     }
 
     protected void addError(String context, String message) {
