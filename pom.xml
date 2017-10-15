@@ -12,12 +12,12 @@
             <groupId>com.google.inject</groupId>
             <artifactId>guice</artifactId>
             <version>4.0</version>
-        </dependency>       
+        </dependency>
         <dependency>
             <groupId>com.google.inject.extensions</groupId>
             <artifactId>guice-servlet</artifactId>
             <version>4.0</version>
-        </dependency>   
+        </dependency>
         <dependency>
             <groupId>commons-fileupload</groupId>
             <artifactId>commons-fileupload</artifactId>
@@ -32,32 +32,32 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-io</artifactId>
             <version>1.3.2</version>
-        </dependency>        
+        </dependency>
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
             <version>3.11</version>
-        </dependency>        
+        </dependency>
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
             <version>3.11</version>
-        </dependency>         
+        </dependency>
         <dependency>
             <groupId>org.apache.shiro</groupId>
             <artifactId>shiro-web</artifactId>
             <version>1.2.3</version>
-        </dependency>           
+        </dependency>
         <dependency>
             <groupId>org.apache.shiro</groupId>
             <artifactId>shiro-ehcache</artifactId>
             <version>1.2.3</version>
-        </dependency>         
+        </dependency>
         <dependency>
             <groupId>org.codehaus.jackson</groupId>
             <artifactId>jackson-core-asl</artifactId>
             <version>1.9.13</version>
-        </dependency>        
+        </dependency>
         <dependency>
             <groupId>org.codehaus.jackson</groupId>
             <artifactId>jackson-jaxrs</artifactId>
@@ -67,32 +67,32 @@
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
             <version>9.4-1202-jdbc42</version>
-        </dependency>        
+        </dependency>
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>servlet-api</artifactId>
             <version>2.5</version>
             <scope>provided</scope>
-        </dependency>                         
+        </dependency>
         <dependency>
             <groupId>com.zaxxer</groupId>
             <artifactId>HikariCP</artifactId>
             <version>2.4.1</version>
             <scope>compile</scope>
-        </dependency>      
+        </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
             <version>1.7.7</version>
-        </dependency>         
+        </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
             <version>1.7.7</version>
-        </dependency>      
+        </dependency>
         <dependency>
             <groupId>org.mindrot</groupId>
-            <artifactId>jbcrypt</artifactId>   
+            <artifactId>jbcrypt</artifactId>
             <version>0.3m</version>
         </dependency>
         <dependency>
@@ -101,7 +101,7 @@
             <version>4.2.1</version>
             <scope>system</scope>
             <systemPath>${project.basedir}/src/main/resources/itext-4.2.1.jar</systemPath>
-        </dependency>                                          
+        </dependency>
     </dependencies>
     <repositories>
         <repository>
@@ -122,7 +122,7 @@
         </repository>
     </repositories>
     <build>
-        <plugins>  
+        <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -141,7 +141,7 @@
                     <encoding>${project.build.sourceEncoding}</encoding>
                 </configuration>
             </plugin>
-        </plugins>        
+        </plugins>
     </build>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
